@@ -1,5 +1,10 @@
 public static void Act_Rec(int x, int y){
     if(x<=0){
-        
+        sout("x");
+        Act_Rec(x-1,y);
+    }
+    else if(y<=0){
+        sout("y");
+        Act_Rec(x,y+1);
     }
 }
